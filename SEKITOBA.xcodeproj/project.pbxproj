@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		E9BFE35E2A031DE100074916 /* SEKITOBAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE35D2A031DE100074916 /* SEKITOBAApp.swift */; };
-		E9BFE3602A031DE100074916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE35F2A031DE100074916 /* ContentView.swift */; };
 		E9BFE3622A031DE300074916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BFE3612A031DE300074916 /* Assets.xcassets */; };
 		E9BFE3652A031DE300074916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BFE3642A031DE300074916 /* Preview Assets.xcassets */; };
 		E9BFE36F2A031DE300074916 /* SEKITOBATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE36E2A031DE300074916 /* SEKITOBATests.swift */; };
 		E9BFE3792A031DE300074916 /* SEKITOBAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3782A031DE300074916 /* SEKITOBAUITests.swift */; };
 		E9BFE37B2A031DE300074916 /* SEKITOBAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE37A2A031DE300074916 /* SEKITOBAUITestsLaunchTests.swift */; };
+		E9BFE38B2A031F3D00074916 /* StageGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE38A2A031F3D00074916 /* StageGateway.swift */; };
+		E9BFE38E2A03213D00074916 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E9BFE38D2A03213D00074916 /* Alamofire */; };
+		E9BFE3902A0325CB00074916 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE38F2A0325CB00074916 /* StateData.swift */; };
+		E9BFE3922A03332C00074916 /* StageEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3912A03332C00074916 /* StageEnvironment.swift */; };
+		E9BFE3952A03338600074916 /* StageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3942A03338600074916 /* StageState.swift */; };
+		E9BFE3982A0333B700074916 /* StageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3972A0333B700074916 /* StageAction.swift */; };
+		E9BFE39B2A03345B00074916 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E9BFE39A2A03345B00074916 /* ComposableArchitecture */; };
+		E9BFE39D2A0334D700074916 /* StagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE39C2A0334D700074916 /* StagesView.swift */; };
+		E9BFE39F2A03362C00074916 /* StageReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE39E2A03362C00074916 /* StageReducer.swift */; };
+		E9BFE3A22A036CED00074916 /* LocalPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3A12A036CED00074916 /* LocalPushNotification.swift */; };
+		E9BFE3A82A03BE9900074916 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3A72A03BE9900074916 /* DateExtension.swift */; };
+		E9BFE3AB2A050F2300074916 /* StagePagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3AA2A050F2300074916 /* StagePagerView.swift */; };
+		E9BFE3AD2A05141900074916 /* MatchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3AC2A05141900074916 /* MatchType.swift */; };
+		E9BFE3AF2A05145600074916 /* StageTimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3AE2A05145600074916 /* StageTimeZone.swift */; };
+		E9BFE3B22A05263200074916 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BFE3B12A05263200074916 /* DateFormatterExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9BFE35A2A031DE100074916 /* SEKITOBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEKITOBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BFE35A2A031DE100074916 /* IKADA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKADA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFE35D2A031DE100074916 /* SEKITOBAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEKITOBAApp.swift; sourceTree = "<group>"; };
-		E9BFE35F2A031DE100074916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9BFE3612A031DE300074916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BFE3642A031DE300074916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9BFE36A2A031DE300074916 /* SEKITOBATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEKITOBATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,21 @@
 		E9BFE3742A031DE300074916 /* SEKITOBAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEKITOBAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BFE3782A031DE300074916 /* SEKITOBAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEKITOBAUITests.swift; sourceTree = "<group>"; };
 		E9BFE37A2A031DE300074916 /* SEKITOBAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEKITOBAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9BFE38A2A031F3D00074916 /* StageGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageGateway.swift; sourceTree = "<group>"; };
+		E9BFE38F2A0325CB00074916 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		E9BFE3912A03332C00074916 /* StageEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageEnvironment.swift; sourceTree = "<group>"; };
+		E9BFE3942A03338600074916 /* StageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageState.swift; sourceTree = "<group>"; };
+		E9BFE3972A0333B700074916 /* StageAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageAction.swift; sourceTree = "<group>"; };
+		E9BFE39C2A0334D700074916 /* StagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesView.swift; sourceTree = "<group>"; };
+		E9BFE39E2A03362C00074916 /* StageReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageReducer.swift; sourceTree = "<group>"; };
+		E9BFE3A12A036CED00074916 /* LocalPushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotification.swift; sourceTree = "<group>"; };
+		E9BFE3A32A037F9800074916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9BFE3A42A03BBA700074916 /* SEKITOBA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SEKITOBA.entitlements; sourceTree = "<group>"; };
+		E9BFE3A72A03BE9900074916 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		E9BFE3AA2A050F2300074916 /* StagePagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagePagerView.swift; sourceTree = "<group>"; };
+		E9BFE3AC2A05141900074916 /* MatchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchType.swift; sourceTree = "<group>"; };
+		E9BFE3AE2A05145600074916 /* StageTimeZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageTimeZone.swift; sourceTree = "<group>"; };
+		E9BFE3B12A05263200074916 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BFE39B2A03345B00074916 /* ComposableArchitecture in Frameworks */,
+				E9BFE38E2A03213D00074916 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +114,7 @@
 		E9BFE35B2A031DE100074916 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9BFE35A2A031DE100074916 /* SEKITOBA.app */,
+				E9BFE35A2A031DE100074916 /* IKADA.app */,
 				E9BFE36A2A031DE300074916 /* SEKITOBATests.xctest */,
 				E9BFE3742A031DE300074916 /* SEKITOBAUITests.xctest */,
 			);
@@ -94,9 +124,16 @@
 		E9BFE35C2A031DE100074916 /* SEKITOBA */ = {
 			isa = PBXGroup;
 			children = (
+				E9BFE3A42A03BBA700074916 /* SEKITOBA.entitlements */,
+				E9BFE3A32A037F9800074916 /* Info.plist */,
 				E9BFE35D2A031DE100074916 /* SEKITOBAApp.swift */,
-				E9BFE35F2A031DE100074916 /* ContentView.swift */,
 				E9BFE3612A031DE300074916 /* Assets.xcassets */,
+				E9BFE3A02A036CA300074916 /* Util */,
+				E9BFE3872A031E0000074916 /* Environment */,
+				E9BFE3932A03336E00074916 /* State */,
+				E9BFE3882A031E0C00074916 /* Reducer */,
+				E9BFE3962A0333A700074916 /* Action */,
+				E9BFE3892A031E1300074916 /* View */,
 				E9BFE3632A031DE300074916 /* Preview Content */,
 			);
 			path = SEKITOBA;
@@ -127,6 +164,61 @@
 			path = SEKITOBAUITests;
 			sourceTree = "<group>";
 		};
+		E9BFE3872A031E0000074916 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE38A2A031F3D00074916 /* StageGateway.swift */,
+				E9BFE38F2A0325CB00074916 /* StateData.swift */,
+				E9BFE3912A03332C00074916 /* StageEnvironment.swift */,
+				E9BFE3AC2A05141900074916 /* MatchType.swift */,
+				E9BFE3AE2A05145600074916 /* StageTimeZone.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		E9BFE3882A031E0C00074916 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE39E2A03362C00074916 /* StageReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		E9BFE3892A031E1300074916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE39C2A0334D700074916 /* StagesView.swift */,
+				E9BFE3AA2A050F2300074916 /* StagePagerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9BFE3932A03336E00074916 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE3942A03338600074916 /* StageState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		E9BFE3962A0333A700074916 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE3972A0333B700074916 /* StageAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		E9BFE3A02A036CA300074916 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E9BFE3A12A036CED00074916 /* LocalPushNotification.swift */,
+				E9BFE3A72A03BE9900074916 /* DateExtension.swift */,
+				E9BFE3B12A05263200074916 /* DateFormatterExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,8 +235,12 @@
 			dependencies = (
 			);
 			name = SEKITOBA;
+			packageProductDependencies = (
+				E9BFE38D2A03213D00074916 /* Alamofire */,
+				E9BFE39A2A03345B00074916 /* ComposableArchitecture */,
+			);
 			productName = SEKITOBA;
-			productReference = E9BFE35A2A031DE100074916 /* SEKITOBA.app */;
+			productReference = E9BFE35A2A031DE100074916 /* IKADA.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E9BFE3692A031DE300074916 /* SEKITOBATests */ = {
@@ -215,6 +311,10 @@
 				Base,
 			);
 			mainGroup = E9BFE3512A031DE100074916;
+			packageReferences = (
+				E9BFE38C2A03213D00074916 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E9BFE3992A03345B00074916 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = E9BFE35B2A031DE100074916 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +357,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BFE3602A031DE100074916 /* ContentView.swift in Sources */,
+				E9BFE38B2A031F3D00074916 /* StageGateway.swift in Sources */,
+				E9BFE3902A0325CB00074916 /* StateData.swift in Sources */,
+				E9BFE3B22A05263200074916 /* DateFormatterExtension.swift in Sources */,
+				E9BFE3AD2A05141900074916 /* MatchType.swift in Sources */,
+				E9BFE3982A0333B700074916 /* StageAction.swift in Sources */,
+				E9BFE3AB2A050F2300074916 /* StagePagerView.swift in Sources */,
+				E9BFE39F2A03362C00074916 /* StageReducer.swift in Sources */,
+				E9BFE3952A03338600074916 /* StageState.swift in Sources */,
+				E9BFE3A82A03BE9900074916 /* DateExtension.swift in Sources */,
+				E9BFE3AF2A05145600074916 /* StageTimeZone.swift in Sources */,
+				E9BFE39D2A0334D700074916 /* StagesView.swift in Sources */,
 				E9BFE35E2A031DE100074916 /* SEKITOBAApp.swift in Sources */,
+				E9BFE3A22A036CED00074916 /* LocalPushNotification.swift in Sources */,
+				E9BFE3922A03332C00074916 /* StageEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,24 +526,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SEKITOBA/SEKITOBA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SEKITOBA/Preview Content\"";
-				DEVELOPMENT_TEAM = KRPQ8E7V25;
+				DEVELOPMENT_TEAM = 82VM9CARWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SEKITOBA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sekitoba.com.min.SEKITOBA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ikada.com.min;
+				PRODUCT_NAME = IKADA;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,24 +558,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SEKITOBA/SEKITOBA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SEKITOBA/Preview Content\"";
-				DEVELOPMENT_TEAM = KRPQ8E7V25;
+				DEVELOPMENT_TEAM = 82VM9CARWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SEKITOBA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sekitoba.com.min.SEKITOBA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ikada.com.min;
+				PRODUCT_NAME = IKADA;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,6 +701,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9BFE38C2A03213D00074916 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E9BFE3992A03345B00074916 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9BFE38D2A03213D00074916 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9BFE38C2A03213D00074916 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E9BFE39A2A03345B00074916 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9BFE3992A03345B00074916 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9BFE3522A031DE100074916 /* Project object */;
 }
